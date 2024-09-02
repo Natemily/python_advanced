@@ -1,0 +1,1 @@
+is_non_negative_num = lambda x: x.isdigit() and int(x)>= 0
