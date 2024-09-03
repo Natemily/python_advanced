@@ -1,0 +1,1 @@
+is_num = lambda s: s.replace('.', '', 1).lstrip('-').isdigit() if s.count('.') <= 1 and s.count('-') <= 1 and s.find('-') in (-1, 0) else False
